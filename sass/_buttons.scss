@@ -1,0 +1,83 @@
+@use 'colors';
+
+button {
+	letter-spacing: 1px;
+}
+
+.header-buttons{
+	z-index: 100;
+}
+
+.header-btn {
+	width: 145px;
+	margin: 5px;
+	padding: 15px;
+	border: none;
+	border-radius: 18px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+    cursor: pointer;
+	box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.menu-btn {
+	background: colors.$button-first;
+}
+.reservation-btn {
+	background: colors.$button-second;
+}
+
+.menu-btn:hover {
+	background: colors.$button-second;
+}
+.reservation-btn:hover {
+	background: colors.$button-first;
+}
+
+
+//menu btn
+
+.offer-btn {
+	width: auto;
+	padding: 5px;
+	border: none;
+	border-radius: 18px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+    cursor: pointer;
+}
+
+.coffee-btn {
+	background: colors.$button-second;
+}
+
+
+//reservation btn
+
+.form-btn, .create-opinion {
+	background-color: colors.$brown-main;
+	width: 100px;
+	padding: 10px;
+	margin: 20px auto;
+	border: none;
+	border-radius: 18px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+    cursor: pointer;
+	box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.close-btn {
+	margin-top: 0;
+}
+.footer-btn {
+	background-color: colors.$button-first;
+	width: 35%;
+	margin: 10px;
+}
+
+.create-opinion-btn-box {
+display: flex;
+}

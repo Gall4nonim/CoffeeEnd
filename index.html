@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb2e5f27a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav">
+                <div class="h-nav">
+
+                    <button class="burger-button">
+                        <div class="burger-icon">
+                            <div class="bar bar-one"></div>
+                            <div class="bar bar-two"></div>
+                            <div class="bar bar-three"></div>
+                        </div>
+                    </button>
+
+                    <div class="social-media">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+
+
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./img/logo.png"
+                                alt="Logo Coffee Shop, filiżanka kawy w okręgu z napisem Coffee Shop">
+                        </a>
+                    </div>
+                    <div class="white-block"></div>
+                </div>
+                <ul class="list">
+                    <li class="item"><a href="#">Home</a></li>
+
+                    <div class="next-to">
+                        <button class="item dropdown-btn">O nas</button>
+                        <div class="arrow">
+                            <img src="./svg/corner-right-down.svg" class="arrow-down"
+                                alt="Strzałka wychodząca z prawego rogu kierująca się w dół">
+                            <img src="./svg/corner-right-up.svg" class="arrow-up hide-arrow"
+                                alt="Strzałka wychodząca z prawego rogu kierująca się w górę">
+                        </div>
+                    </div>
+                    <ul class="dropdown">
+                        <li><a href="#aboutus">O kawiarni</a></li>
+                        <li><a href="team.html">Zespół</a></li>
+                        <li><a href="opinion.html">Opinie</a></li>
+                        <li><a href="joinus.html">Dołącz do nas</a></li>
+                    </ul>
+
+                    <li class="item"><a href="#menu">Menu</a></li>
+
+                    <li class="item"><a href="#reservation">Rezerwacje</a></li>
+                    <ul class="dropdown">
+                        <li><a href="#table">Stolik</a></li>
+                        <li><a href="#room">Sala</a></li>
+                    </ul>
+
+                    <li class="item"><a href="#blog">Blog</a></li>
+                    <li class="item"><a href="#contact">Kontakt</a></li>
+                    <div class="social-media2 social-burger-menu">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <span class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-wrapper">
+
+        <header>
+            <ul class="slides">
+
+                <li class="slide slide1 showing">
+
+                    <div class="header">
+                        <div class="header-text">
+                            <h1>Kawa dla Ciebie</h2>
+                                <p>Odkryj różnorodność smaków naszych wyjątkowych kaw</p>
+                                <div class="header-buttons">
+                                    <a href="#menu"><button class="header-btn menu-btn">Zobacz menu</button></a>
+                                    <a href="#reservation"><button
+                                            class="header-btn reservation-btn">Zarezerwuj</button></a>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="header-shadow"></div>
+                </li>
+
+                <li class="slide slide2">
+
+                    <div class="header">
+                        <div class="header-text">
+                            <h1>Parzona z pasją</h2>
+                                <p>Ze starannie wyselekcjonowanych ziaren kawy najwyższej jakości</p>
+                                <div class="header-buttons">
+                                    <a href="#menu"><button class="header-btn menu-btn">Zobacz menu</button></a>
+                                    <a href="#reservation"><button
+                                            class="header-btn reservation-btn">Zarezerwuj</button></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="header-shadow"></div>
+                </li>
+
+                <li class="slide slide3">
+
+                    <div class="header">
+                        <div class="header-text">
+                            <h1>Najlepszi bariści</h2>
+                                <p>Wyjątkowo i majestatycznie podana kawa, dzięki naszemu presonelowi</p>
+                                <div class="header-buttons">
+                                    <a href="#menu"><button class="header-btn menu-btn">Zobacz menu</button></a>
+                                    <a href="#reservation"><button
+                                            class="header-btn reservation-btn">Zarezerwuj</button></a>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="header-shadow"></div>
+                </li>
+
+                <button><i class="arrow-slide arrow-next fa fa-angle-left fa-5x"></i></button>
+                <button><i class="arrow-slide arrow-prev fa fa-angle-right fa-5x"></i></button>
+            </ul>
+
+        </header>
+    </div>
+
+    <main>
+
+        <section id="aboutus" class="aboutus">
+
+            <div class="container">
+
+                <div class="headline">
+
+                    <div class="underline">
+                        <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-left">
+                        <div class="bar"></div>
+                    </div>
+
+                    <h2>Kilka słów o naszej kawiarni</h2>
+
+                    <div class="underline">
+                        <div class="bar"></div>
+                        <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-right">
+                    </div>
+
+
+                </div>
+
+
+                <div class="aboutus-box">
+                    <img src="./img/aboutus-big.jpg"
+                        alt="Kawiarnia z siedzącymi ludźmi. Pracownicy pracujący przy barze" class="aboutus-img">
+                    <div class="text">
+                        <p>Jesteśmy pasjonatami kawy i wiemy, że nie ma lepszego sposobu na rozpoczęcie dnia niż
+                            zapach świeżo parzonej kawy, która pobudza zmysły i cieszy podniebienie. Nasz
+                            niewątpliwy atut
+                            to starannie wyselekcjonowane ziarna, pochodzące z najodleglejszych zakątków
+                            świata.Dbamy o każdy detal, od uprawy po palenie, by dostarczyć Tobie niezapomniany smak
+                            i aromat. Każda filiżanka to dla nas sztuka, którą chcemy podzielić się z naszymi
+                            Gośćmi. </p>
+
+                        <p><img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-left"
+                                style="width:30px; height:30px; opacity:.75;">Dbamy o smak kawy
+                        </p>
+                        <p><img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-left"
+                                style="width:30px; height:30px; opacity:.75;">Serwujemy super desery
+                        </p>
+                        <p><img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-left"
+                                style="width:30px; height:30px; opacity:.75;">Zapewniamy miła atmosferę
+                        </p>
+
+                        <p> Choć kawa jest sercem naszej kawiarni, to nie możemy też zapomnieć o słodkich pokusach.
+                            Nasze wykwintne
+                            ciasta, przygotowywane z pasją i najwyższej jakości składników, doskonale komponują się
+                            z aromatycznymi napojami. </p>
+                    </div>
+                    <img src="./svg/beans.png" alt="trzy ziarna kawy" class="aboutus-coffee-cup-img">
+                </div>
+
+                <div class="cards">
+
+
+                    <div class="card">
+                        <div class="card-img one"></div>
+                        <div class="card-text">
+                            <h3 class="card-h3">Team</h3>
+                        </div>
+                        <div class="card-text2">
+                            <i class="card-i fa-solid fa-people-group"></i>
+                            <p class="card-description">Zapoznaj się z załogą naszej kawiarni</p>
+                        </div>
+                        <a href="team.html">
+                            <div class="card-shadow"></div>
+                        </a>
+                    </div>
+
+
+                    <div class="card">
+
+                        <div class="card-img two"></div>
+                        <div class="card-text">
+                            <h3>Opinie</h3>
+                        </div>
+                        <div class="card-text2">
+                            <i class="card-i fa-regular fa-comment"></i>
+                            <p class="card-description">Sprawdź opinie, lub wyraź własną</p>
+                        </div>
+                        <a href="opinion.html">
+                            <div class="card-shadow"></div>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img three"></div>
+                        <div class="card-text">
+                            <h3>Dołącz do nas</h3>
+                        </div>
+                        <div class="card-text2">
+                            <i class="card-i fa-solid fa-handshake-simple"></i>
+                            <p class="card-description">Dołącz do naszej sympatycznej ekipy</p>
+                        </div>
+                        <a href="joinus.html">
+                            <div class="card-shadow"></div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+
+
+                <div class="headline">
+
+                    <div class="underline">
+                        <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-left">
+                        <div class="bar"></div>
+                    </div>
+
+                    <h2>Menu</h2>
+
+                    <div class="underline">
+                        <div class="bar"></div>
+                        <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-right">
+                    </div>
+                </div>
+
+                <div class="menu-bar-buttons">
+                    <button class="offer-btn menu-btn coffee-button">Kawa</button>
+                    <button class="offer-btn menu-btn tea-button">Herbata</button>
+                    <button class="offer-btn menu-btn cake-button">Ciasta</button>
+                    <button class="offer-btn menu-btn cupcake-button">Babeczki</button>
+                </div>
+
+                <div class="menu-coffee menu-show">
+
+                    <div class="menu-box">
+                        <div class="menu-box-img coffee-one"></div>
+                        <h4>Espresso</h4>
+                        <p>5zł <span>7zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img coffee-two"></div>
+                        <h4>Americano</h4>
+                        <p>7zł <span>8zł</span></p>
+                    </div>
+
+                    <div class="menu-box">
+                        <div class="menu-box-img coffee-three"></div>
+                        <h4>Mocca</h4>
+                        <p>8zł <span>9zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img coffee-four"></div>
+                        <h4>Cappuccino</h4>
+                        <p>9zł <span>11zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img coffee-five"></div>
+                        <h4>Frappe</h4>
+                        <p>13zł <span>15zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img coffee-six"></div>
+                        <h4>Latte</h4>
+                        <p>8zł <span>9zł</span></p>
+                    </div>
+
+
+                </div>
+
+
+                <div class="menu-hot-drinks">
+
+                    <div class="menu-box">
+                        <div class="menu-box-img hot-drinks-one"></div>
+                        <h4>Czarna</h4>
+                        <p>4zł <span>5zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img hot-drinks-two"></div>
+                        <h4>Zielona</h4>
+                        <p>4zł <span>5zł</span></p>
+                    </div>
+
+                    <div class="menu-box">
+                        <div class="menu-box-img hot-drinks-three"></div>
+                        <h4>Hibiskus</h4>
+                        <p>6zł <span>9zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img hot-drinks-four"></div>
+                        <h4>Miętowa</h4>
+                        <p>3zł <span>4zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img hot-drinks-five"></div>
+                        <h4>Jaśminowa</h4>
+                        <p>7zł <span>8zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img hot-drinks-six"></div>
+                        <h4>Biała</h4>
+                        <p>5zł <span>6zł</span></p>
+                    </div>
+
+                </div>
+
+                <div class="menu-cake">
+
+                    <div class="menu-box">
+                        <div class="menu-box-img cake-one"></div>
+                        <h4>Tiramisu</h4>
+                        <p>11zł <span>12zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img cake-two"></div>
+                        <h4>Malinowe</h4>
+                        <p>10zł <span>11zł</span></p>
+                    </div>
+
+                    <div class="menu-box">
+                        <div class="menu-box-img cake-three"></div>
+                        <h4>Waniliowe</h4>
+                        <p>9zł <span>10zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img cake-four"></div>
+                        <h4>Skittles</h4>
+                        <p>12zł <span>14zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img cake-five"></div>
+                        <h4>Beza</h4>
+                        <p>11zł <span>12zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img cake-six"></div>
+                        <h4>Czekoladowe</h4>
+                        <p>9zł <span>12zł</span></p>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-cupcake">
+
+                    <div class="menu-box">
+                        <div class="menu-box-img cupcake-one"></div>
+                        <h4>Ferrero</h4>
+                        <p>11zł <span>13zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img cupcake-two"></div>
+                        <h4>Tęczowa</h4>
+                        <p>10zł <span>11zł</span></p>
+                    </div>
+
+                    <div class="menu-box">
+                        <div class="menu-box-img cupcake-three"></div>
+                        <h4>Wiśniowa</h4>
+                        <p>9zł <span>10zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img cupcake-four"></div>
+                        <h4>Truskawkowa</h4>
+                        <p>9zł <span>11zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img cupcake-five"></div>
+                        <h4>Oreo</h4>
+                        <p>12zł <span>13zł</span></p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-box-img cupcake-six"></div>
+                        <h4>Czekoladowa</h4>
+                        <p>9zł <span>11zł</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="reservation" class="reservation">
+
+            <div class="reservation-hero-img">
+
+                <div class="reservation-hero-img-shadow"></div>
+
+                <div class="container">
+
+                    <div class="reservation-area">
+                        <div class="reservation-img"></div>
+
+                        <form>
+                            <div class="headline">
+                                <div class="underline">
+                                    <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-left">
+                                    <div class="bar bar-short"></div>
+                                </div>
+                                <h2>Rezerwacja</h2>
+                                <div class="underline">
+                                    <div class="bar"></div>
+                                    <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-right">
+                                </div>
+                            </div>
+                            <div class="form-box">
+                                <select id="people">
+                                    <option value="">Ilość osób</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="more">>6</option>
+                                </select>
+                                <p class="error-text error-people">e</p>
+                            </div>
+                            <div class="form-box">
+                                <input type="text" id="username" placeholder="Podaj imię">
+                                <p class="error-text">e</p>
+                            </div>
+                            <div class="form-box">
+                                <input type="number" id="number" placeholder="Podaj numer">
+                                <p class="error-text">e</p>
+                            </div>
+                            <div class="form-box">
+                                <input type="email" id="email" placeholder="Podaj email">
+                                <p class="error-text">e</p>
+                            </div>
+                            <div class="form-box">
+                                <input type="datetime-local" min="2023-09-02T00:00" max="2023-12-31T023:59" id="date"
+                                    placeholder="Wybierz datę">
+                                <p class="error-text">e</p>
+                            </div>
+                            <div class="form-buttons">
+                                <button class="clear-btn form-btn">Wyczyść</button>
+                                <button class="send-btn form-btn">Wyślij</button>
+                            </div>
+                            <div class="popup">
+                                <p>Stolik został zarezerwowany! Niebawem dostaniesz potwierdzenie na telefon</p>
+                                <button class="close-btn form-btn">Zamknij</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="reservation-hero-img-shadow"></div>
+            </div>
+            <div class="container">
+
+
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <div class="container">
+
+                <div class="headline">
+                    <div class="underline">
+                        <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-left">
+                        <div class="bar bar-short"></div>
+                    </div>
+                    <h2>Blog</h2>
+                    <div class="underline">
+                        <div class="bar"></div>
+                        <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-right">
+                    </div>
+                </div>
+                <div class="blog-box">
+
+                    <div class="blog-next-to">
+                        <div class="blog-big blog-one"><a
+                                href="https://www.domzdrowia.pl/artykul/sztuka-parzenia-kawy-1241" target="_blank">
+                                <div class="blog-img first-blog-img">
+                                    <div class="reservation-hero-img-shadow"></div>
+                                    <div class="blog-text big-text">
+                                        <h3>Sztuka Parzenia Kawy</h3>
+                                        <p>Marzysz o świeżo zaparzonej kawie w domu? Ten wpis pokaże ci, jak przygotować
+                                            doskonałą kawę we własnym zaciszu.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="blog-big blog-two"><a
+                                href="https://zdrowie.pap.pl/dieta/czy-picie-kawy-jest-zdrowe-co-jest-faktem-co-mitem"
+                                target="_blank">
+                                <div class="blog-img second-blog-img">
+                                    <div class="reservation-hero-img-shadow"></div>
+                                    <div class="blog-text big-text">
+                                        <h3>Czy picie kawy jest zdrowe?</h3>
+                                        <p>Fakty i mity na temat wpływu kawy na nasze zdrowie. Dowiedz się jak kawa może
+                                            pomóc,
+                                            ale i dlaczego szkodzi.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blog-big blog-three"><a href="https://alohacamp.com/blog/rytualy-kawowe/"
+                            target="_blank">
+                            <div class="blog-img third-blog-img">
+                                <div class="reservation-hero-img-shadow"></div>
+                                <div class="blog-text big-text">
+                                    <h3>Kawowa Magia</h3>
+                                    <p>Sztuki zdobienia kawy. Triki i porady jak wykonać ozdobną kawę na miarę
+                                        najlepszych
+                                        baristów.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blog-big blog-four"> <a href="https://www.coffeedesk.pl/blog/" target="_blank">
+                            <div class="blog-img fourth-blog-img blog-img-short">
+                                <div class="reservation-hero-img-shadow"></div>
+                                <div class="blog-text big-text blog-text-short">
+                                    <h3>Wejdź na bloga po więcej ciekawych wpisów</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="faq-section">
+
+            <div class="headline">
+                <div class="underline">
+                    <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-left">
+                    <div class="bar bar-short"></div>
+                </div>
+                <h2>FAQ</h2>
+                <div class="underline">
+                    <div class="bar"></div>
+                    <img src="./svg/beans.png" alt="trzy ziarna kawy" class="underline-beans-right">
+                </div>
+            </div>
+
+            <div class="faq-container">
+                <div class="container">
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Czy można przyjsć do kawiarni bez rezerwacji?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Niestety, ze względu na ograniczoną liczbę miejsc w naszej kawiarni,
+                                zalecamy dokonanie rezerwacji, szczególnie w godzinach szczytu lub w przypadku większych
+                                grup. Dzięki rezerwacji możemy zapewnić Ci pewność, że będziesz miał/miała miejsce dla
+                                siebie i swoich towarzyszy. Jednak jeśli jesteś w okolicy i nie masz rezerwacji, zawsze
+                                możesz sprawdzić, czy mamy dostępne wolne miejsca. Postaramy się Cię przyjąć, jeśli to
+                                możliwe.</p>
+                        </div>
+                    </div>
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Czy oferujecie opcje wegetariańskie i dietetyczne w menu?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Niestety, nie oferujemy opcji wegetariańskich i dietetycznych w naszym
+                                menu. Nasza oferta skupia się głównie na tradycyjnych deserach, które nie są specjalnie
+                                dostosowane do diet wegetariańskich lub dietetycznych. Jednak stale pracujemy nad
+                                rozwojem
+                                naszego menu, więc zawsze możemy rozważyć wprowadzenie takich opcji w przyszłości na
+                                podstawie opinii naszych klientów. Dziękujemy za zrozumienie.</p>
+                        </div>
+                    </div>
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Czy można u Was pracować zdalnie lub korzystać z Wi-Fi?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Oczywiście! Nasza kawiarnia oferuje dostęp do bezpłatnego Wi-Fi, co
+                                sprawia, że jesteśmy idealnym miejscem do pracy zdalnej. Zapraszamy do korzystania z
+                                naszych
+                                udogodnień.</p>
+                        </div>
+                    </div>
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Czy macie dostępne miejsca dla dzieci?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Tak, mamy miejsca przyjazne dla dzieci. Nasza kawiarnia jest przyjazna
+                                rodzinom, a nasze menu zawiera również opcje dla najmłodszych gości.</p>
+                        </div>
+                    </div>
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Jakie są godziny otwarcia kawiarni?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Nasze godziny otwarcia różnią się w zależności od dnia tygodnia.
+                                Szczegółowe informacje na temat godzin otwarcia znajdziesz na naszej stronie
+                                internetowej w
+                                zakładce kontakt lub możesz zadzwonić pod numer 721891905.</p>
+                        </div>
+                    </div>
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Czy można u Was zorganizować prywatne wydarzenia lub spotkania?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Tak, oferujemy możliwość organizacji prywatnych wydarzeń i spotkań. Aby
+                                dowiedzieć się więcej oraz zarezerwować naszą przestrzeń na wydarzenie, skontaktuj się z
+                                nami pod adresem coffe-show.gmail.com lub numerem 721891906.</p>
+                        </div>
+                    </div>
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Czy akceptujecie płatności kartą kredytową?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Tak, akceptujemy płatności kartą kredytową, blikiem oraz gotówką.</p>
+                        </div>
+                    </div>
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Czy oferujecie usługę na wynos?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Tak, oferujemy usługę na wynos. Możesz zamówić jedzenie i napoje
+                                kontaktując się z nami telefonicznie, a my przygotujemy zamówienie do odbioru.</p>
+                        </div>
+                    </div>
+                    <div class="faq-left">
+                        <div class="faq-question">
+                            <p>Czy macie regularne promocje lub program lojalnościowy dla stałych klientów?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Tak, mamy program lojalnościowy dla naszych stałych klientów, który
+                                obejmuje regularne promocje i rabaty. Aby dowiedzieć się więcej zadzwoń do nas, sprawdź
+                                naszego bloga, media społecznościowe lub zapytaj obsługę przy kolejnej wizycie.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="container">
+
+                <div class="top-footer">
+
+                    <div class="find-us">
+                        <div class="find-us text-footer">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Znajdź nas</h4>
+                            <p>Fiołkowa 13, Poznań</p>
+                        </div>
+                    </div>
+                    <div class="call-us">
+
+                        <div class="call-us text-footer">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Zadzwoń</h4>
+                            <p>721832695</p>
+                        </div>
+                    </div>
+                    <div class="mail-us">
+
+                        <div class="mail-us text-footer">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Napisz</h4>
+                            <p>coffee@shop.com</p>
+                        </div>
+                    </div>
+
+
+                    <div class="subscribe">
+                        <h4>Subskrybuj</h4>
+                        <p>Podaj swój email i bądź na bierząco z promocjami i ciekawymi artykułami z naszego bloga</p>
+                        <div class="input-box">
+                            <input type="email" id="email2" class="form-footer">
+                            <p class="error-footer">Email jest niepoprawny</p>
+                            <button class="form-btn footer-btn">Wyślij</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="social-media2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <span class="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+
+        </footer>
+
+
+
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
